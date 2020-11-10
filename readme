@@ -1,0 +1,3 @@
+#使用的时候直接的是corrector_text里面的bbox_corrector函数；
+#如果使用的时候结构就已经是识别结果的列表和对应的置信度的话，那么就可以直接调用base_corrector中的correct函数；
+#如果需要对结果进行最后的展示，那么可以调用corrector_text中的ocr_correct函数；
